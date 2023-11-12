@@ -1,0 +1,50 @@
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../public/img/background-day.png");
+    background-repeat: repeat;
+}
+.background{
+    background: url("../public/img/background-day.png");
+    background-repeat: no-repeat;
+    background-size: var(--wall_h,600px) var(--wall_w,600px);
+    width: var(--wall_w,600px);
+    height: var(--wall_h,600px);
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.bird{
+    position: absolute;
+    background: url("../public/img/yellowbird-upflap.png");
+    background-repeat: no-repeat;
+    background-size: var(--wall_h,34px) var(--wall_w,34px);
+    width: var(--wall_w,34px);
+    height: var(--wall_h,34px);
+    top: var(--top);
+    left: var(--left);
+}
+.buttonApp3{
+    position: relative;
+    top: 49%;
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    margin-left: 260px;
+    color: #fff;
+}
+.obj{
+    position: relative;
+    background-image: url("../public/img/pipe-green.png");
+    height: var(--obj_h);
+    width: var(--obj_w);
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate, 0deg));
+}
+.buttonBack3{
+    margin-left: 0;
+}

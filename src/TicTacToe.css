@@ -1,0 +1,81 @@
+  .container5{
+    background: linear-gradient(to right, #8bade4, #3c17b8);
+    height: 100vh;
+  }
+  .container5 h1{
+    text-align: center;
+  }
+  .game {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .col-5{
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 6px;
+    background-color: rgb(160, 155, 215);
+    font-size: 42px;
+  
+    &:hover{
+      cursor: pointer;
+      background-color: rgb(148, 142, 215);
+  
+    }
+  
+  }
+  
+  .row1-5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  
+  }
+  .row2-5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  
+  }
+  .row3-5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  
+  }
+  
+  .buttonApp5{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #1f0f51;
+    color: azure;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+  
+    &:hover{
+      background-color:azure;
+      color:  #1f0f51 ;
+      transition: 0.2s ease-in;
+    }
+  }
+  
+  
+  /* img{
+    height: 45px;
+    width: auto;
+    margin: 8px;
+  } */
+  .pApp5{
+    color: rgb(37, 184, 37);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
